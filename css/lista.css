@@ -1,0 +1,89 @@
+body{
+    background:#0e60b5;
+}
+
+/* ---- HEADER ---- */
+header{
+    background:linear-gradient(to right,#3094c9, #0e60b5);
+    color:white;
+}
+
+.subheader{
+    background-color: #0c4786;
+    color: aliceblue;
+}
+
+/* ---- CONTENEDOR DE LA TABLA ---- */
+.table-responsive {
+    margin: 40px auto;
+    background: #0c4786;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* ---- TABLA ---- */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Encabezados */
+table thead th {
+    background: #0c4786;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Celdas */
+table td {
+    padding: 14px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: transparent !important;
+}
+
+/* Zebra */
+table tbody tr:nth-child(even) {
+    background: rgba(255,255,255,0.1);
+}
+
+/* Hover */
+table tbody tr:hover {
+    background: #0b3b6e !important;
+    transition: 0.2s;
+}
+
+/* ---- IMAGEN ---- */
+img.trayecto-img,
+#imagen_trayecto {
+    max-width: 150px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* ---- BOTÓN DE VOLVER ---- */
+button, .btn {
+    width: 100%;
+    padding: 12px;
+    background: #0b3c70;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background: #08294d;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+}

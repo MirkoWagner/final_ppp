@@ -1,0 +1,25 @@
+db cfp61
+tabla registros
+id_registro INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY
+nombre VARCHAR(50) NOT_NULL
+email VARCHAR(50) NOT_NULL
+mensaje VARCHAR(500) NOT_NULL
+id_trayectos_fk INT(10) INDEX
+
+tabla trayectos
+id_trayecto INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY
+nombre VARCHAR(50) NOT_NULL
+descripcion VARCHAR(50) NOT_NULL
+imagen LONGBLOB
+
+
+resumenes
+Pasteleria: El Pastelero está preparado para elaborar, presentar y conservar todo tipo de productos de pastelería siguiendo técnicas adecuadas y normas de higiene. También puede realizar preparaciones básicas de chocolatería, panadería y heladería, y participar en la creación de ofertas gastronómicas. Además, está capacitado para trabajar como responsable del área de pastelería o como integrante de un equipo en la producción de alimentos.
+peluqueria: El Peluquero está capacitado para proponer y realizar cambios y cuidados del cabello según el rostro y el objetivo estético acordado. Puede trabajar de forma autónoma o bajo dependencia, cumpliendo normas y criterios éticos. Además, colabora con otros profesionales del ámbito de la estética personal.
+organizador de eventos: El Organizador de Eventos está capacitado para planificar, organizar, coordinar y promocionar eventos. Puede identificar las necesidades del cliente, definir el concepto y objetivos del evento, elaborar presupuestos y crear el cronograma. También gestiona recursos humanos, técnicos y económicos; sirve como intermediario entre proveedores y clientes; supervisa la ejecución del evento y evalúa sus resultados. Además, participa en la venta y promoción de eventos, identificando públicos y elaborando planes comerciales.
+modista: El Modista/Confeccionista a Medida puede interpretar diseños, crear y transformar moldes, cortar y confeccionar prendas a medida usando máquinas familiares o industriales. Trabaja de forma autónoma en todas las etapas de la confección para distintos tipos de prendas, resuelve problemas simples y participa en la comercialización del producto final. También reconoce cuándo necesita asistencia técnica especializada.
+Auxiliar en Mantenimiento y Reparacion de Electrodomesticos:El Auxiliar en Mantenimiento y Reparación de Electrodomésticos diagnostica y repara fallas en equipos del hogar como heladeras, lavarropas, hornos y microondas. Realiza mantenimiento preventivo, instala electrodomésticos, reemplaza piezas, prueba su funcionamiento y atiende al cliente brindando explicaciones y consejos. Además, registra sus trabajos y se mantiene actualizado sobre nuevas tecnologías, siempre cumpliendo normas de seguridad eléctrica.
+ciclo adolescente soldador: El Ciclo Adolescente Soldador permite a jóvenes continuar sus estudios mientras adquieren competencias laborales. El Soldador está capacitado para ensamblar, reparar y cortar metales usando soldadura (arco eléctrico o MIG) y corte (oxicorte y plasma), siguiendo planos, órdenes de trabajo o muestras. Sabe preparar máquinas, materiales y superficies, controlar dimensiones y formas, y aplicar normas de seguridad y procedimientos internacionales, trabajando de manera autónoma en sus tareas.
+marroquinero: La/el Marroquinera/o está capacitado para producir artículos de marroquinería, organizando, operando y supervisando todo el proceso de fabricación. Puede trabajar de forma autónoma o en relación de dependencia, aplicando técnicas, conocimientos y criterios de calidad y seguridad laboral.
+
+

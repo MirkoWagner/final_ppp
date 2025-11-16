@@ -1,0 +1,148 @@
+/* ======== GENERAL ======== */
+body {
+    background: #0e60b5;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ======== HEADER & NAVBAR ======== */
+header {
+    background: linear-gradient(to right, #3094c9, #0e60b5);
+    color: white;
+}
+
+.navbar {
+    background: linear-gradient(to right, #3094c9, #0e60b5);
+}
+
+.navbar-brand img {
+    max-width: 80px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #d0d0d0 !important;
+}
+
+#adminMenu .dropdown-item {
+    color: #333 !important;
+}
+
+/* ======== TITULOS ======== */
+header h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subheader {
+    background-color: #0c4786;
+    color: aliceblue;
+    padding: 15px 10px;
+}
+
+.subheader h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* ======== CAROUSEL ======== */
+.carousel-item img {
+    max-height: 540px;
+    object-fit: contain;
+}
+
+/* Para que se vea bien en móviles */
+@media (max-width: 576px) {
+    .carousel-item img {
+        max-height: 300px;
+    }
+}
+
+/* ======== FORMULARIO DE CONTACTO ======== */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 18px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+    background: #fafafa;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #6a5acd;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.3);
+    outline: none;
+}
+
+/* Botón */
+#boton_form {
+    width: 100%;
+    padding: 12px;
+    background: #0b3c70;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#boton_form:hover {
+    background: #08294d;
+}
+
+/* ======== CARD DE UBICACION ======== */
+.contact-card {
+    background: #0c4786;
+    border-radius: 16px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.2);
+}
+
+.contact-card h2 {
+    font-weight: 600;
+}
+
+/* ======== RESPONSIVE — CONTACTO ======== */
+@media (max-width: 768px) {
+    .contact-card {
+        margin-top: 20px;
+    }
+}
+
+/* ======== FOOTER ======== */
+footer {
+    background: #0c4786;
+    padding: 25px 0;
+    margin-top: 40px;
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ======== BOTÓN DE ADMIN (OCULTO POR DEFECTO) ======== */
+#adminMenu {
+    display: none;
+}
+
+/* ======== ANIMACIONES SUAVES ======== */
+button, a, input, textarea, select {
+    transition: 0.3s ease;
+}
