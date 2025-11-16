@@ -77,7 +77,9 @@ $conn->close();
 <?php endif; ?>
 
 <hr>
-<p><a href="altas.php">Cargar nuevo trayecto</a></p>
+<button><a href="altas.php">Cargar nuevo trayecto</a></button>
+
+<button><a href="../index.php">Volver</a></button>
 
 </body>
 </html>

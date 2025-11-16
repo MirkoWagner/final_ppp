@@ -1,36 +1,54 @@
+/* ================================
+   ESTILOS GENERALES
+=================================*/
+
+/* Fondo general de la página */
 body{
     background:#0e60b5;
 }
 
-/* ---- HEADER ---- */
+/* ================================
+   HEADER
+=================================*/
+
+/* Encabezado principal con degradado */
 header{
     background:linear-gradient(to right,#3094c9, #0e60b5);
     color:white;
 }
 
+/* Sub-encabezado debajo del header */
 .subheader{
     background-color: #0c4786;
     color: aliceblue;
 }
 
-/* ---- CONTENEDOR DE LA TABLA ---- */
+/* ================================
+   CONTENEDOR DE LA TABLA
+=================================*/
+
+/* Caja que envuelve la tabla, centrada y con diseño moderno */
 .table-responsive {
-    margin: 40px auto;
-    background: #0c4786;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    margin: 40px auto;              /* separa la tabla del resto */
+    background: #0c4786;            /* color de fondo */
+    padding: 20px;                  /* espacio interno */
+    border-radius: 12px;            /* bordes redondeados */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15); /* sombra suave */
 }
 
-/* ---- TABLA ---- */
+/* ================================
+   TABLA
+=================================*/
+
+/* Ajustes generales de la tabla */
 table {
-    width: 100%;
+    width: 100%;                    /* ocupa todo el ancho */
     margin-top: 20px;
-    border-collapse: collapse;
+    border-collapse: collapse;      /* elimina espacios internos entre bordes */
     font-family: "Poppins", sans-serif;
 }
 
-/* Encabezados */
+/* ----- Encabezados de la tabla ----- */
 table thead th {
     background: #0c4786;
     color: white;
@@ -38,7 +56,7 @@ table thead th {
     font-size: 16px;
 }
 
-/* Celdas */
+/* ----- Celdas de la tabla ----- */
 table td {
     padding: 14px;
     font-size: 15px;
@@ -46,18 +64,22 @@ table td {
     background-color: transparent !important;
 }
 
-/* Zebra */
+/* ----- Efecto zebra (filas pares) ----- */
 table tbody tr:nth-child(even) {
     background: rgba(255,255,255,0.1);
 }
 
-/* Hover */
+/* ----- Hover de filas ----- */
 table tbody tr:hover {
     background: #0b3b6e !important;
     transition: 0.2s;
 }
 
-/* ---- IMAGEN ---- */
+/* ================================
+   IMÁGENES DENTRO DE LA TABLA
+=================================*/
+
+/* Imágenes de los trayectos: tamaño y borde */
 img.trayecto-img,
 #imagen_trayecto {
     max-width: 150px;
@@ -65,7 +87,11 @@ img.trayecto-img,
     border-radius: 6px;
 }
 
-/* ---- BOTÓN DE VOLVER ---- */
+/* ================================
+   BOTONES
+=================================*/
+
+/* Botón y clases .btn (mismo estilo) */
 button, .btn {
     width: 100%;
     padding: 12px;
@@ -79,10 +105,16 @@ button, .btn {
     text-decoration: none;
 }
 
+/* Hover del botón */
 button:hover, .btn:hover {
     background: #08294d;
 }
 
+/* ================================
+   FOOTER
+=================================*/
+
+/* Pie de página centrado */
 footer{
     text-align: center;
     padding: 20px 0;

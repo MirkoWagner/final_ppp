@@ -1,148 +1,148 @@
 /* ======== GENERAL ======== */
 body {
-    background: #0e60b5;
-    font-family: "Poppins", sans-serif;
+    background: #0e60b5;                    /* Color de fondo general azul */
+    font-family: "Poppins", sans-serif;     /* Fuente principal del sitio */
 }
 
 /* ======== HEADER & NAVBAR ======== */
 header {
-    background: linear-gradient(to right, #3094c9, #0e60b5);
-    color: white;
+    background: linear-gradient(to right, #3094c9, #0e60b5); /* Degradado azul claro → azul oscuro */
+    color: white;                                            /* Texto blanco */
 }
 
 .navbar {
-    background: linear-gradient(to right, #3094c9, #0e60b5);
+    background: linear-gradient(to right, #3094c9, #0e60b5); /* Misma estética que el header */
 }
 
 .navbar-brand img {
-    max-width: 80px;
+    max-width: 80px;                         /* Limita tamaño del logo */
 }
 
 .nav-link {
-    color: #ffffff !important;
-    font-weight: 500;
-    transition: 0.3s;
+    color: #ffffff !important;               /* Enlaces blancos */
+    font-weight: 500;                        /* Texto semi-negrita */
+    transition: 0.3s;                        /* Animación suave al cambiar color */
 }
 
 .nav-link:hover {
-    color: #d0d0d0 !important;
+    color: #d0d0d0 !important;               /* Color gris al pasar el mouse */
 }
 
 #adminMenu .dropdown-item {
-    color: #333 !important;
+    color: #333 !important;                  /* Color oscuro para items del menú admin */
 }
 
 /* ======== TITULOS ======== */
 header h1 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-align: center;
+    font-size: 1.4rem;                       /* Tamaño del título */
+    font-weight: 700;                        /* Negrita */
+    text-align: center;                      /* Centrado */
 }
 
 .subheader {
-    background-color: #0c4786;
-    color: aliceblue;
-    padding: 15px 10px;
+    background-color: #0c4786;               /* Azul más oscuro */
+    color: aliceblue;                        /* Color de texto claro */
+    padding: 15px 10px;                      /* Espaciado interno */
 }
 
 .subheader h2 {
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.4rem;                       /* Tamaño subtítulo */
+    font-weight: 600;                        /* Semi-negrita */
 }
 
 /* ======== CAROUSEL ======== */
 .carousel-item img {
-    max-height: 540px;
-    object-fit: contain;
+    max-height: 540px;                       /* Altura máxima del carrusel */
+    object-fit: contain;                     /* Ajusta la imagen sin recortarla */
 }
 
-/* Para que se vea bien en móviles */
+/* Ajuste para pantallas pequeñas */
 @media (max-width: 576px) {
     .carousel-item img {
-        max-height: 300px;
+        max-height: 300px;                   /* Disminuye altura en móviles */
     }
 }
 
 /* ======== FORMULARIO DE CONTACTO ======== */
 input, select, textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0 18px 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 15px;
-    transition: 0.3s;
-    background: #fafafa;
+    width: 100%;                              /* Campo ocupa todo el ancho */
+    padding: 12px;                            /* Espaciado interno */
+    margin: 8px 0 18px 0;                     /* Márgenes */
+    border: 1px solid #ccc;                   /* Borde gris claro */
+    border-radius: 8px;                       /* Bordes redondeados */
+    font-size: 15px;                          /* Tamaño texto */
+    transition: 0.3s;                         /* Animación suave */
+    background: #fafafa;                      /* Fondo gris muy claro */
 }
 
 input:focus, select:focus, textarea:focus {
-    border-color: #6a5acd;
-    background: #fff;
-    box-shadow: 0 0 5px rgba(106, 90, 205, 0.3);
-    outline: none;
+    border-color: #6a5acd;                    /* Borde violeta al enfocar */
+    background: #fff;                         /* Fondo blanco al enfocar */
+    box-shadow: 0 0 5px rgba(106, 90, 205, .3); /* Sombra elegante */
+    outline: none;                            /* Sin contorno azul */
 }
 
-/* Botón */
+/* Botón principal del formulario */
 #boton_form {
-    width: 100%;
-    padding: 12px;
-    background: #0b3c70;
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
+    width: 100%;                               /* Ocupa todo el ancho */
+    padding: 12px;                             /* Espaciado */
+    background: #0b3c70;                       /* Azul oscuro */
+    border: none;                              /* Sin borde */
+    color: white;                              /* Texto blanco */
+    font-size: 16px;                            /* Tamaño texto */
+    border-radius: 8px;                        /* Bordes redondeados */
+    cursor: pointer;                           /* Cambia cursor al pasar */
+    transition: 0.3s;                           /* Animación */
 }
 
 #boton_form:hover {
-    background: #08294d;
+    background: #08294d;                       /* Azul más oscuro al pasar el mouse */
 }
 
 /* ======== CARD DE UBICACION ======== */
 .contact-card {
-    background: #0c4786;
-    border-radius: 16px;
-    padding: 20px;
-    color: white;
-    box-shadow: 0px 4px 20px rgba(0,0,0,0.2);
+    background: #0c4786;                        /* Tarjeta azul oscuro */
+    border-radius: 16px;                        /* Bordes redondeados */
+    padding: 20px;                              /* Espaciado */
+    color: white;                               /* Texto blanco */
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.2);    /* Sombra elegante */
 }
 
 .contact-card h2 {
-    font-weight: 600;
+    font-weight: 600;                           /* Título semi-negrita */
 }
 
 /* ======== RESPONSIVE — CONTACTO ======== */
 @media (max-width: 768px) {
     .contact-card {
-        margin-top: 20px;
+        margin-top: 20px;                       /* Agrega separación en pantallas chicas */
     }
 }
 
 /* ======== FOOTER ======== */
 footer {
-    background: #0c4786;
-    padding: 25px 0;
-    margin-top: 40px;
-    color: white;
+    background: #0c4786;                        /* Fondo azul oscuro */
+    padding: 25px 0;                            /* Espacio vertical */
+    margin-top: 40px;                           /* Separación con el contenido */
+    color: white;                               /* Texto blanco */
 }
 
 footer a {
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
+    color: #fff;                                 /* Enlaces blancos */
+    font-weight: 500;                            /* Semi-negrita */
+    text-decoration: none;                       /* Sin línea */
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline;                  /* Subrayado al pasar */
 }
 
 /* ======== BOTÓN DE ADMIN (OCULTO POR DEFECTO) ======== */
 #adminMenu {
-    display: none;
+    display: none;                               /* Menú admin escondido */
 }
 
 /* ======== ANIMACIONES SUAVES ======== */
 button, a, input, textarea, select {
-    transition: 0.3s ease;
+    transition: 0.3s ease;                      /* Transiciones suaves globales */
 }
